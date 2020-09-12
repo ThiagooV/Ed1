@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+
+    char nome[] = "José Augusto";
+    char *p_nome = nome;
+
+    for(int i = 0; *(p_nome+i) != '\0'; i++){
+        printf("%c", *(p_nome+i));
+
+    }
+
+    return 0;
+}
+
