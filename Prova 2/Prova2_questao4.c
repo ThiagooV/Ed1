@@ -1,0 +1,4 @@
+//Prova 2, questão 4
+Nos TADs que fizemos no curso as definições das estruturas do TAD ficavam no arquivo .c ao invés de ficarem no .h. Qual a motivação para a separação dessa forma? Cite uma vantagem ao proceder dessa forma.
+
+	Porque o usuário só precisa ter conhecimento do .h que contém as chamadas das funções e as informações de como usá-las, ele não precisa ter acesso ao código do TAD. Desta forma, além de garantir mais segurança ao TAD, pois encapsula os códigos, facilita o trabalho em equipe e a manutenção do TAD.  Além disso, caso o programador altere alguma coisa na função, o usuário não precisa ficar sabendo. O usuário só sabe como usar a função e não como ela é feita. Desta forma, é só compilar o .c novamente e o usuário não tem que se preocupar com nenhuma mudança no programa dele.
